@@ -16,12 +16,12 @@ public class User {
             this.password = password;
         }
 
-        public String displayAcount() {
+        public void displayAcount() {
 
-            System.out.printf("Account Login successful! Login: %s, Password: %s ", User.this.login, password);
+            System.out.printf("Account Login successful! Login: %s, Password: %s ", login, password);
 
 
-            return null;
+
         }
 
     }
